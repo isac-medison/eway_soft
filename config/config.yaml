@@ -1,0 +1,14 @@
+eway:
+  base_url: "https://www.eway.in.ua"
+  base_url_ajax: "https://www.eway.in.ua/ajax"
+  city: "lviv"
+  language: "en"
+  routes: "/routes"
+  cf_clearance_cookie: ""
+
+scraper:
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+
+mysql:
+  DATABASE_URL: "mysql+pymysql://root:root@localhost:3306/eway"
+  DATABASE_ENGINE: "mysql+pymysql://root:root@localhost:3306/"
